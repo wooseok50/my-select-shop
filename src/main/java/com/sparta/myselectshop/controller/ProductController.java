@@ -27,8 +27,7 @@ public class ProductController {
     @PostMapping("/products")
     public ProductResponseDto createProduct(
         @RequestBody ProductRequestDto requestDto,
-        @AuthenticationPrincipal
-        UserDetailsImpl userDetails) {
+        @AuthenticationPrincipal UserDetailsImpl userDetails) {
         return productService.createProduct(requestDto, userDetails.getUser());
     }
 
