@@ -6,4 +6,4 @@
 - 폴더 등록 및 조회
 - 상품 조회시 페이징
 - 배포 편의를 위해 H2 사용
-- [**배포 주소**](ec2-3-34-123-168.ap-northeast-2.compute.amazonaws.com:8070)
+- 배포 주소: ec2-3-34-123-168.ap-northeast-2.compute.amazonaws.com:8070
